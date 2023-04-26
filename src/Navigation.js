@@ -41,7 +41,14 @@ function Navigation () {
             base_price = 39.95;  
         }
         if(workhours == "outside" &&  particular == "Adelaide" ) {
-            base_price = 47.94;  
+            base_price = 47.94; 
+
+        }
+        if(workhours == "normal" &&  particular == "Perth" ) {
+            base_price = 39.95;  
+        }
+        if(workhours == "outside" &&  particular == "Perth" ) {
+            base_price = 47.94; 
         }
         if(workhours == "normal" &&  particular == "Regional Victoria") {
             base_price = 40.50;  
@@ -70,6 +77,12 @@ function Navigation () {
             base_price = 37.95;  
         }
         if(workhours == "outside" &&  particular == "Melbourne" ) {
+            base_price = 45.94;  
+        }
+        if(workhours == "normal" &&  particular == "Perth" ) {
+            base_price = 37.95;  
+        }
+        if(workhours == "outside" &&  particular == "Perth" ) {
             base_price = 45.94;  
         }
         if(workhours == "normal" &&  particular == "Adelaide" ) {
