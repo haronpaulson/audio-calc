@@ -4,8 +4,8 @@ import './index.css';
 function Details () {
     return(
         <div className=" w-4/6">
-            <img src= "anitechlogo.png" alt="companylogo" className=" w-40 mb-2 ml-52"/>
-            <h1 className=" font-semibold mb-2 text-2xl pl- ">Cost Estimate for audiometric assessment</h1>
+            <img src= "" alt="Company" className=" w-40 mb-2 ml-52"/>
+            <h1 className=" font-semibold mb-2 text-2xl pl- ">Cost Estimate for metric assessment</h1>
         </div>
     )
 }
